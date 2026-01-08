@@ -1,0 +1,10 @@
+pec.id for field_spec in self.history_factory_config]
+
+        configurable = config.get("configurable", {})
+
+        missing_keys = set(expected_keys) - set(configurable.keys())
+        parameter_names = _get_parameter_names(self.get_session_history)
+
+        if missing_keys and parameter_names:
+            example_input = {self.input_messages_key: "foo"}
+            example_configurable = dict.f

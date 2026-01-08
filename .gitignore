@@ -10,5 +10,9 @@ wheels/
 .venv
 
 models/
+llm_servingmodels/
+llama.cpp/
+
 env/
 secrets/
+
