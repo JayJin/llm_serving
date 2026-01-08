@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "chromadb>=1.4.0",
     "hf-xet>=1.2.0",
     "ipykernel>=7.1.0",
     "jupyter>=1.1.1",
@@ -14,9 +15,14 @@ dependencies = [
     "langchain-core>=1.2.6",
     "langchain-experimental>=0.4.1",
     "langchain-openai>=1.1.6",
+    "lxml>=6.0.2",
+    "matplotlib>=3.10.8",
+    "nltk>=3.9.2",
     "openai>=2.14.0",
     "pandas>=2.3.3",
     "pdfplumber>=0.11.9",
+    "pi-heif>=1.1.1",
+    "pillow==11.1.0",
     "protobuf>=6.33.2",
     "pydantic>=2.12.5",
     "pymupdf>=1.26.7",
@@ -27,6 +33,7 @@ dependencies = [
     "sentence-transformers>=5.2.0",
     "sentencepiece>=0.2.1",
     "streamlit>=1.52.2",
+    "tiktoken>=0.12.0",
     "transformers>=4.57.3",
-    "unstructured>=0.18.26",
+    "unstructured[all-docs]==0.17.2",
 ]
